@@ -10,4 +10,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Show the Trigger
-          run: echo "Hello, World!!!"
+          run: echo "I have been triggered by a ${{github.event_name}} event"
